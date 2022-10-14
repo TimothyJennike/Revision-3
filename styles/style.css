@@ -1,0 +1,32 @@
+/*body*/
+.body{
+    margin: auto;
+    padding: 0;
+}
+
+/*Syntax*/
+.thy{
+    font-size: large;
+}
+
+/*hover, selected*/
+h2 a:hover{
+    color: chartreuse;
+}
+
+.selc:active{
+    color: crimson;
+}
+/*Pseudo-selctors*/
+
+/*first-child & last-child*/
+li:first-child{
+    background-color: aqua;
+}
+
+p:last-child{
+    background-color: deeppink;
+}
+h1::first-letter{
+    background-color: cornflowerblue;
+}
